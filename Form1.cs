@@ -37,5 +37,10 @@ namespace Estudo_do_Csharp_Windons_Forms_
             label1.Text = "Informe a mensagem a ser carregado:";
             textBox1.Clear();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label2.Text = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
+        }
     }
 }
