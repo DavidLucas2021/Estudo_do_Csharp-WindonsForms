@@ -20,14 +20,22 @@ namespace Estudo_do_Csharp_Windons_Forms_
         //BOTÃO DE "OK" FAZ A LABEL RECEBER VALOR DA CAIXA DE TEXTO
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = textBox1.Text;
-            textBox1.Clear();
+            if (textBox1.Text == "")
+            {
+                label1.Text = "Informe a mensagem a ser carregado:";
+            }
+            else
+            {
+                label1.Text = textBox1.Text;
+                textBox1.Clear();
+            }
         }
 
         //BOTÃO DE LIMPAR RESETA O VALOR DA LABEL 
         private void button2_Click(object sender, EventArgs e)
         {
             label1.Text = "Informe a mensagem a ser carregado:";
+            textBox1.Clear();
         }
     }
 }
