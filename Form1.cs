@@ -15,27 +15,32 @@ namespace Estudo_do_Csharp_Windons_Forms_
         public Form1()
         {
             InitializeComponent();
+            textBox1.Focus();
         }
-
-        //BOTÃO DE "OK" FAZ A LABEL RECEBER VALOR DA CAIXA DE TEXTO
+        //LÓGICA DO BOTÃO DE ADICIONAR CARRO
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "")
+            if(textBox1.Text == "")
             {
-                label1.Text = "Informe a mensagem a ser carregado:";
+                //JANELA DE ERRO INFORMANDO CAMPO VAZIO
+                MessageBox.Show("Campo vazio. Informe o carro");
+                //POSICIONA O CURSOR NA CAIXA DE TEXTO PARA ADICIONAR CARRO 
+                textBox1.Focus();
             }
-            else
+            else 
+            if(textBox1.Text != "")
             {
-                label1.Text = textBox1.Text;
+                textBox2.Text += textBox1.Text +"\r\n";
                 textBox1.Clear();
+                textBox1.Focus();
             }
         }
-
-        //BOTÃO DE LIMPAR RESETA O VALOR DA LABEL 
+        //LÓGICA DO BOTÃO DE LIMPAR CONTEÚDO     
         private void button2_Click(object sender, EventArgs e)
         {
-            label1.Text = "Informe a mensagem a ser carregado:";
             textBox1.Clear();
+            textBox2.Clear();
+            textBox1.Focus();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
