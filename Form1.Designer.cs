@@ -31,28 +31,31 @@ namespace Estudo_do_Csharp_Windons_Forms_
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.button1 = new System.Windows.Forms.Button();
+            this.Add_Car = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.bt_historico = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // Add_Car
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(254, 59);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(72, 26);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Adicionar ";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Add_Car.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Add_Car.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Add_Car.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Add_Car.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Add_Car.Location = new System.Drawing.Point(254, 59);
+            this.Add_Car.Name = "Add_Car";
+            this.Add_Car.Size = new System.Drawing.Size(72, 26);
+            this.Add_Car.TabIndex = 0;
+            this.Add_Car.Text = "Adicionar ";
+            this.Add_Car.UseVisualStyleBackColor = false;
+            this.Add_Car.Click += new System.EventHandler(this.Add_Car_Click);
             // 
             // label1
             // 
@@ -92,15 +95,6 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(12, 95);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(314, 208);
-            this.textBox2.TabIndex = 5;
-            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -115,18 +109,64 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(12, 101);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(236, 20);
+            this.textBox3.TabIndex = 7;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(254, 97);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(72, 26);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "Retirar ";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(12, 131);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(314, 173);
+            this.listBox1.TabIndex = 9;
+            // 
+            // bt_historico
+            // 
+            this.bt_historico.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.bt_historico.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_historico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_historico.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_historico.Location = new System.Drawing.Point(12, 341);
+            this.bt_historico.Name = "bt_historico";
+            this.bt_historico.Size = new System.Drawing.Size(314, 26);
+            this.bt_historico.TabIndex = 10;
+            this.bt_historico.Text = "Histórico ";
+            this.bt_historico.UseVisualStyleBackColor = false;
+            this.bt_historico.Click += new System.EventHandler(this.bt_historico_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(336, 338);
+            this.ClientSize = new System.Drawing.Size(336, 373);
+            this.Controls.Add(this.bt_historico);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Add_Car);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -141,13 +181,16 @@ namespace Estudo_do_Csharp_Windons_Forms_
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Add_Car;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button bt_historico;
     }
 }
 
