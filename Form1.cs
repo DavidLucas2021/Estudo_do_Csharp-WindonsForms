@@ -111,13 +111,20 @@ namespace Estudo_do_Csharp_Windons_Forms_
         {
             string[] list = new string[5];
             Car.CopyTo(list);
+            //ENTRANDO COM LIST(ARRAY) E UM OBJETO DA CLASSE FORM1(THIS)
             Form2 form2 = new Form2(list,this);
             form2.ShowDialog();
         }
-
+        //LÓGICA DO BOTÃO QUE MOSTRA O VALOR DA VARIÁVEL NUM 
         private void bt_mostrarnum_Click(object sender, EventArgs e)
         {
             MessageBox.Show(num.ToString());
+        }
+        //LÓGICA DE MENU QUE ABRE O FORM CHECK_BX
+        private void checkBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Check_bx form_Check_bx = new Check_bx();
+            form_Check_bx.ShowDialog(); 
         }
     }
 }

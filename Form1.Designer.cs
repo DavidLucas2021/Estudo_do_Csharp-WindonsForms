@@ -42,6 +42,10 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.bt_historico = new System.Windows.Forms.Button();
             this.bt_mostrarnum = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.componentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Add_Car
@@ -50,7 +54,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.Add_Car.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Add_Car.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Add_Car.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Add_Car.Location = new System.Drawing.Point(254, 59);
+            this.Add_Car.Location = new System.Drawing.Point(247, 88);
             this.Add_Car.Name = "Add_Car";
             this.Add_Car.Size = new System.Drawing.Size(72, 26);
             this.Add_Car.TabIndex = 0;
@@ -65,7 +69,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 36);
+            this.label1.Location = new System.Drawing.Point(5, 65);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(188, 24);
             this.label1.TabIndex = 1;
@@ -73,7 +77,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 63);
+            this.textBox1.Location = new System.Drawing.Point(5, 92);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(236, 20);
             this.textBox1.TabIndex = 2;
@@ -85,7 +89,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 9);
+            this.label2.Location = new System.Drawing.Point(5, 38);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(207, 24);
             this.label2.TabIndex = 4;
@@ -102,7 +106,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(12, 309);
+            this.button2.Location = new System.Drawing.Point(5, 338);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(314, 26);
             this.button2.TabIndex = 6;
@@ -112,7 +116,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(12, 101);
+            this.textBox3.Location = new System.Drawing.Point(5, 130);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(236, 20);
             this.textBox3.TabIndex = 7;
@@ -123,7 +127,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(254, 97);
+            this.button3.Location = new System.Drawing.Point(247, 126);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(72, 26);
             this.button3.TabIndex = 8;
@@ -134,7 +138,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 131);
+            this.listBox1.Location = new System.Drawing.Point(5, 160);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(314, 173);
             this.listBox1.TabIndex = 9;
@@ -145,7 +149,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.bt_historico.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bt_historico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_historico.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_historico.Location = new System.Drawing.Point(12, 341);
+            this.bt_historico.Location = new System.Drawing.Point(5, 370);
             this.bt_historico.Name = "bt_historico";
             this.bt_historico.Size = new System.Drawing.Size(314, 26);
             this.bt_historico.TabIndex = 10;
@@ -159,7 +163,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.bt_mostrarnum.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bt_mostrarnum.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_mostrarnum.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_mostrarnum.Location = new System.Drawing.Point(12, 373);
+            this.bt_mostrarnum.Location = new System.Drawing.Point(5, 402);
             this.bt_mostrarnum.Name = "bt_mostrarnum";
             this.bt_mostrarnum.Size = new System.Drawing.Size(314, 26);
             this.bt_mostrarnum.TabIndex = 11;
@@ -167,12 +171,37 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.bt_mostrarnum.UseVisualStyleBackColor = false;
             this.bt_mostrarnum.Click += new System.EventHandler(this.bt_mostrarnum_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.componentesToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(321, 24);
+            this.menuStrip1.TabIndex = 12;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // componentesToolStripMenuItem
+            // 
+            this.componentesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.checkBoxToolStripMenuItem});
+            this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
+            this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
+            this.componentesToolStripMenuItem.Text = "Componentes";
+            // 
+            // checkBoxToolStripMenuItem
+            // 
+            this.checkBoxToolStripMenuItem.Name = "checkBoxToolStripMenuItem";
+            this.checkBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkBoxToolStripMenuItem.Text = "CheckBox";
+            this.checkBoxToolStripMenuItem.Click += new System.EventHandler(this.checkBoxToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(336, 404);
+            this.ClientSize = new System.Drawing.Size(321, 430);
             this.Controls.Add(this.bt_mostrarnum);
             this.Controls.Add(this.bt_historico);
             this.Controls.Add(this.listBox1);
@@ -183,13 +212,17 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Add_Car);
+            this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GARAGEM";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -208,6 +241,9 @@ namespace Estudo_do_Csharp_Windons_Forms_
         private System.Windows.Forms.Button bt_historico;
         private System.Windows.Forms.Button bt_mostrarnum;
         public System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem componentesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem checkBoxToolStripMenuItem;
     }
 }
 
