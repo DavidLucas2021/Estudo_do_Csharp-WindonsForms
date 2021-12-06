@@ -41,6 +41,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.button3 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.bt_historico = new System.Windows.Forms.Button();
+            this.bt_mostrarnum = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Add_Car
@@ -152,12 +153,27 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.bt_historico.UseVisualStyleBackColor = false;
             this.bt_historico.Click += new System.EventHandler(this.bt_historico_Click);
             // 
+            // bt_mostrarnum
+            // 
+            this.bt_mostrarnum.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.bt_mostrarnum.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_mostrarnum.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_mostrarnum.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_mostrarnum.Location = new System.Drawing.Point(12, 373);
+            this.bt_mostrarnum.Name = "bt_mostrarnum";
+            this.bt_mostrarnum.Size = new System.Drawing.Size(314, 26);
+            this.bt_mostrarnum.TabIndex = 11;
+            this.bt_mostrarnum.Text = "Valor_Num";
+            this.bt_mostrarnum.UseVisualStyleBackColor = false;
+            this.bt_mostrarnum.Click += new System.EventHandler(this.bt_mostrarnum_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(336, 373);
+            this.ClientSize = new System.Drawing.Size(336, 404);
+            this.Controls.Add(this.bt_mostrarnum);
             this.Controls.Add(this.bt_historico);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button3);
@@ -189,8 +205,9 @@ namespace Estudo_do_Csharp_Windons_Forms_
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button bt_historico;
+        private System.Windows.Forms.Button bt_mostrarnum;
+        public System.Windows.Forms.ListBox listBox1;
     }
 }
 

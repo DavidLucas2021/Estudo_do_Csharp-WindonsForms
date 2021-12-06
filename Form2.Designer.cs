@@ -50,6 +50,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Histórico";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -57,6 +58,6 @@ namespace Estudo_do_Csharp_Windons_Forms_
 
         #endregion
 
-        private System.Windows.Forms.TextBox tb_list;
+        public System.Windows.Forms.TextBox tb_list;
     }
 }

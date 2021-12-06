@@ -13,10 +13,12 @@ namespace Estudo_do_Csharp_Windons_Forms_
     public partial class Form1 : Form
     {
         List<string> Car= new List<string>();
+        public int num;
         public Form1()
         {
             InitializeComponent();
             textBox1.Focus();
+            num = 0;
         }
         //LÓGICA DO BOTÃO DE ADICIONAR CARRO
         private void Add_Car_Click(object sender, EventArgs e)
@@ -103,13 +105,19 @@ namespace Estudo_do_Csharp_Windons_Forms_
                 textBox1.Focus();
             }
         }
-
+        //LÓGICA D QUE ABRE A JANELA(FORMS 2) DE HISTÓRICO E CARREGA 
+        //A LISTA QUE SE ENCOONTRA NA PRIMEIRA JANELA(FORM 1)
         private void bt_historico_Click(object sender, EventArgs e)
         {
             string[] list = new string[5];
             Car.CopyTo(list);
-            Form2 form2 = new Form2(list);
+            Form2 form2 = new Form2(list,this);
             form2.ShowDialog();
+        }
+
+        private void bt_mostrarnum_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(num.ToString());
         }
     }
 }
