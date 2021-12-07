@@ -57,5 +57,11 @@ namespace Estudo_do_Csharp_Windons_Forms_
             }
             textBox1.Text = txt;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Filho_Check_bx filho_Check_Bx = new Filho_Check_bx();
+            filho_Check_Bx.ShowDialog();
+        }
     }
 }
