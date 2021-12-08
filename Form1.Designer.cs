@@ -45,6 +45,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.componentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkledListboxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -184,7 +185,8 @@ namespace Estudo_do_Csharp_Windons_Forms_
             // componentesToolStripMenuItem
             // 
             this.componentesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.checkBoxToolStripMenuItem});
+            this.checkBoxToolStripMenuItem,
+            this.checkledListboxToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -195,6 +197,13 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.checkBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.checkBoxToolStripMenuItem.Text = "CheckBox";
             this.checkBoxToolStripMenuItem.Click += new System.EventHandler(this.checkBoxToolStripMenuItem_Click);
+            // 
+            // checkledListboxToolStripMenuItem
+            // 
+            this.checkledListboxToolStripMenuItem.Name = "checkledListboxToolStripMenuItem";
+            this.checkledListboxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkledListboxToolStripMenuItem.Text = "Checkled listbox";
+            this.checkledListboxToolStripMenuItem.Click += new System.EventHandler(this.checkledListboxToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -244,6 +253,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem componentesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem checkBoxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem checkledListboxToolStripMenuItem;
     }
 }
 

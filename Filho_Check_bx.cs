@@ -16,7 +16,12 @@ namespace Estudo_do_Csharp_Windons_Forms_
         public Filho_Check_bx()
         {
             InitializeComponent();
+            //LÓGICA DE ALTERAÇÃO DE FORMS POR OUTRO FORMS USANDO OPENFORMS
+            //OPENFORMS SOMENTE FUNCIONA SE O FORMULÁRIO DESEJADO ESTIVER 
+            //ABERTO 
             check_Bx = Application.OpenForms["Check_bx"] as Check_bx;
+            //LÓGICA QUE PERMITE QUE TODO CHECKBOX ALTERADO EM "CHECK_BX"
+            //SEJA ALTERADO TAMBEM EM "FILHO_CHECK_BX"
             cbx_1.Checked = check_Bx.cbx_1.Checked;
             cbx2.Checked = check_Bx.cbx2.Checked;
             cbx3.Checked = check_Bx.cbx3.Checked;
@@ -24,6 +29,9 @@ namespace Estudo_do_Csharp_Windons_Forms_
             cbx5.Checked = check_Bx.cbx5.Checked;
         }
 
+        //LÓGICA DE EVENTOS QUE PERMITE QUE CADA CHECKBOX ALTERADO EM "FILHO_CHECK_BX"
+        //SEJA TAMBEM ALTERADO EM "CHECK_BX"
+        //EVENTO CHECKEDCHANGED É ACIONADO TODO VEZ QUE O CHECKBOX MUDA DE ESTADO
         private void cbx_1_CheckedChanged(object sender, EventArgs e)
         {
             check_Bx.cbx_1.Checked = cbx_1.Checked;

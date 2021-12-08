@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Checkled_listbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Checkled_listbox.Designer.cs">
+      <DependentUpon>Checkled_listbox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Check_bx.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Checkled_listbox.resx">
+      <DependentUpon>Checkled_listbox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Check_bx.resx">
       <DependentUpon>Check_bx.cs</DependentUpon>
     </EmbeddedResource>

@@ -126,5 +126,11 @@ namespace Estudo_do_Csharp_Windons_Forms_
             Check_bx form_Check_bx = new Check_bx();
             form_Check_bx.ShowDialog(); 
         }
+
+        private void checkledListboxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Checkled_listbox checkled_Listbox = new Checkled_listbox();
+            checkled_Listbox.ShowDialog();
+        }
     }
 }
