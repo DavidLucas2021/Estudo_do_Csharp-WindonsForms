@@ -46,6 +46,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.componentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkledListboxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.comboboxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -186,7 +187,8 @@ namespace Estudo_do_Csharp_Windons_Forms_
             // 
             this.componentesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.checkBoxToolStripMenuItem,
-            this.checkledListboxToolStripMenuItem});
+            this.checkledListboxToolStripMenuItem,
+            this.comboboxToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -204,6 +206,13 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.checkledListboxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.checkledListboxToolStripMenuItem.Text = "Checkled listbox";
             this.checkledListboxToolStripMenuItem.Click += new System.EventHandler(this.checkledListboxToolStripMenuItem_Click);
+            // 
+            // comboboxToolStripMenuItem
+            // 
+            this.comboboxToolStripMenuItem.Name = "comboboxToolStripMenuItem";
+            this.comboboxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.comboboxToolStripMenuItem.Text = "Combobox";
+            this.comboboxToolStripMenuItem.Click += new System.EventHandler(this.comboboxToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -254,6 +263,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
         private System.Windows.Forms.ToolStripMenuItem componentesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem checkBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem checkledListboxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem comboboxToolStripMenuItem;
     }
 }
 

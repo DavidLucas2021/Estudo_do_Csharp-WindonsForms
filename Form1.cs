@@ -132,5 +132,11 @@ namespace Estudo_do_Csharp_Windons_Forms_
             Checkled_listbox checkled_Listbox = new Checkled_listbox();
             checkled_Listbox.ShowDialog();
         }
+
+        private void comboboxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ComboBox comboBox = new ComboBox();
+            comboBox.ShowDialog();
+        }
     }
 }

@@ -46,7 +46,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
         {
             CLBx1.Items.Add(textBox2.Text, false);
             textBox2.Clear();
-            textBox2.Focus();            
+            textBox2.Focus();  
         }
     }
 }
