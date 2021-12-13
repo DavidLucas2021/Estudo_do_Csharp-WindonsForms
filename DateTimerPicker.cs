@@ -42,6 +42,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             dateTimePicker1.ResetText();
             //OU TAMBÉM PODERIA SER O SEGUINTE TRECHO DO CÓDIGO 
             //dateTimePicker1.Value = DateTime.Now;
+            //dateTimePicker1.Value = DateTime.Today;
         }
     }
 }

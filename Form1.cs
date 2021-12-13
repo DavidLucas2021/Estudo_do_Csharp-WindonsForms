@@ -144,5 +144,11 @@ namespace Estudo_do_Csharp_Windons_Forms_
             DateTimerPicker dateTimerPicker = new DateTimerPicker();
             dateTimerPicker.ShowDialog();
         }
+
+        private void linkLabelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LinkLabel linkLabel = new LinkLabel();
+            linkLabel.ShowDialog();
+        }
     }
 }
