@@ -47,6 +47,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.checkBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkledListboxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comboboxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dateTimerPickerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -188,7 +189,8 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.componentesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.checkBoxToolStripMenuItem,
             this.checkledListboxToolStripMenuItem,
-            this.comboboxToolStripMenuItem});
+            this.comboboxToolStripMenuItem,
+            this.dateTimerPickerToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -213,6 +215,13 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.comboboxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.comboboxToolStripMenuItem.Text = "Combobox";
             this.comboboxToolStripMenuItem.Click += new System.EventHandler(this.comboboxToolStripMenuItem_Click);
+            // 
+            // dateTimerPickerToolStripMenuItem
+            // 
+            this.dateTimerPickerToolStripMenuItem.Name = "dateTimerPickerToolStripMenuItem";
+            this.dateTimerPickerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dateTimerPickerToolStripMenuItem.Text = "DateTimerPicker";
+            this.dateTimerPickerToolStripMenuItem.Click += new System.EventHandler(this.dateTimerPickerToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -264,6 +273,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
         private System.Windows.Forms.ToolStripMenuItem checkBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem checkledListboxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem comboboxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dateTimerPickerToolStripMenuItem;
     }
 }
 

@@ -138,5 +138,11 @@ namespace Estudo_do_Csharp_Windons_Forms_
             ComboBox comboBox = new ComboBox();
             comboBox.ShowDialog();
         }
+
+        private void dateTimerPickerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DateTimerPicker dateTimerPicker = new DateTimerPicker();
+            dateTimerPicker.ShowDialog();
+        }
     }
 }
