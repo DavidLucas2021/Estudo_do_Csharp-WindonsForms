@@ -150,5 +150,17 @@ namespace Estudo_do_Csharp_Windons_Forms_
             LinkLabel linkLabel = new LinkLabel();
             linkLabel.ShowDialog();
         }
+
+        private void listBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ListBox listBox = new ListBox();
+            listBox.ShowDialog();
+        }
+
+        private void listViewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ListView listView = new ListView();
+            listView.ShowDialog();
+        }
     }
 }
