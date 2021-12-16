@@ -162,5 +162,11 @@ namespace Estudo_do_Csharp_Windons_Forms_
             ListView listView = new ListView();
             listView.ShowDialog();
         }
+
+        private void maskedTextBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MaskedTextBox maskedTextBox = new MaskedTextBox();
+            maskedTextBox.ShowDialog();
+        }
     }
 }
