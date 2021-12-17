@@ -168,5 +168,11 @@ namespace Estudo_do_Csharp_Windons_Forms_
             MaskedTextBox maskedTextBox = new MaskedTextBox();
             maskedTextBox.ShowDialog();
         }
+
+        private void monthCalendarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MonthCalendar monthCalendar = new MonthCalendar();
+            monthCalendar.ShowDialog();
+        }
     }
 }
