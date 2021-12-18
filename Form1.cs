@@ -174,5 +174,24 @@ namespace Estudo_do_Csharp_Windons_Forms_
             MonthCalendar monthCalendar = new MonthCalendar();
             monthCalendar.ShowDialog();
         }
+        //EVENTO ONDE O ToolStripItemClickedEventArgs "e" OBTEM O ELEMENTO QUE FOI 
+        //CLICADO E SOMENTE É NECESSÁRIO FAZER UMA CONDIÇÃO DE VERIFICAÇÃO DO TEXTO DO
+        //ELEMENTO PARA PODER DEFINIR QUAL COMANDO REALIZAR 
+        private void contextMenuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            if(e.ClickedItem.Name.ToString() == "toolStripMenuItem3")
+            {
+                this.Close();
+            }
+            else if(e.ClickedItem.Name.ToString() == "toolStripMenuItem1")
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+            else if(e.ClickedItem.Name.ToString() == "toolStripMenuItem2")
+            {
+                MessageBox.Show("BOM DIA");
+            }
+
+        }
     }
 }
