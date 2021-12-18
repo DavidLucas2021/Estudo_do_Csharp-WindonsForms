@@ -21,13 +21,14 @@ namespace Estudo_do_Csharp_Windons_Forms_
         {
             if(textBox1.Text != "")
             {
+                //CONFERE SE O VALOR INSERIDO NÃO É MAIOR QUE O VALOR MAXÍMO PERMITIDO
                 if (decimal.Parse(textBox1.Text) <= numericUpDown1.Maximum)
                 {
-                    //PODE SER FEITO ASSIM 
+                    //PODE SER FEITO ESSA CONVERSÃO
                     //int x = Int32.Parse(textBox1.Text);
                     //numericUpDown1.Value = x;
 
-                    //OU
+                    //OU ESTA
                     numericUpDown1.Value = decimal.Parse(textBox1.Text);
                     textBox1.Clear();
                 }

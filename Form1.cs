@@ -199,5 +199,13 @@ namespace Estudo_do_Csharp_Windons_Forms_
             NumericUpDown numericUpDown = new NumericUpDown();
             numericUpDown.ShowDialog();
         }
+
+        private void pictureBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PictureBox pictureBox = new PictureBox();
+            //CENTRALIZANDO O FORMS POR MEIO DO CÓDIGO;
+            pictureBox.StartPosition = FormStartPosition.CenterScreen;
+            pictureBox.ShowDialog();
+        }
     }
 }

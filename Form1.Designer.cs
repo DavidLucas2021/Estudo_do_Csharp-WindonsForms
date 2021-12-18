@@ -59,6 +59,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.numericUpDownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -208,7 +209,8 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.listViewToolStripMenuItem,
             this.maskedTextBoxToolStripMenuItem,
             this.monthCalendarToolStripMenuItem,
-            this.numericUpDownToolStripMenuItem});
+            this.numericUpDownToolStripMenuItem,
+            this.pictureBoxToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -318,6 +320,13 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.numericUpDownToolStripMenuItem.Text = "NumericUpDown";
             this.numericUpDownToolStripMenuItem.Click += new System.EventHandler(this.numericUpDownToolStripMenuItem_Click);
             // 
+            // pictureBoxToolStripMenuItem
+            // 
+            this.pictureBoxToolStripMenuItem.Name = "pictureBoxToolStripMenuItem";
+            this.pictureBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pictureBoxToolStripMenuItem.Text = "PictureBox";
+            this.pictureBoxToolStripMenuItem.Click += new System.EventHandler(this.pictureBoxToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -381,6 +390,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem numericUpDownToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pictureBoxToolStripMenuItem;
     }
 }
 
