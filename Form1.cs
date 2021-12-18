@@ -193,5 +193,11 @@ namespace Estudo_do_Csharp_Windons_Forms_
             }
 
         }
+
+        private void numericUpDownToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NumericUpDown numericUpDown = new NumericUpDown();
+            numericUpDown.ShowDialog();
+        }
     }
 }

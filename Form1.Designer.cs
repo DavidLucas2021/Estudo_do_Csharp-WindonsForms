@@ -58,6 +58,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.numericUpDownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -206,7 +207,8 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.listBoxToolStripMenuItem,
             this.listViewToolStripMenuItem,
             this.maskedTextBoxToolStripMenuItem,
-            this.monthCalendarToolStripMenuItem});
+            this.monthCalendarToolStripMenuItem,
+            this.numericUpDownToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -288,7 +290,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.toolStripMenuItem2,
             this.toolStripMenuItem3});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 92);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(137, 70);
             this.contextMenuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.contextMenuStrip1_ItemClicked);
             // 
             // toolStripMenuItem1
@@ -308,6 +310,13 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             this.toolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem3.Text = "Fechar ";
+            // 
+            // numericUpDownToolStripMenuItem
+            // 
+            this.numericUpDownToolStripMenuItem.Name = "numericUpDownToolStripMenuItem";
+            this.numericUpDownToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.numericUpDownToolStripMenuItem.Text = "NumericUpDown";
+            this.numericUpDownToolStripMenuItem.Click += new System.EventHandler(this.numericUpDownToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -371,6 +380,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem numericUpDownToolStripMenuItem;
     }
 }
 

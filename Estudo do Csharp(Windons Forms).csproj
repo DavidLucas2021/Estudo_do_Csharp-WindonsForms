@@ -118,6 +118,12 @@
     <Compile Include="MonthCalendar.Designer.cs">
       <DependentUpon>MonthCalendar.cs</DependentUpon>
     </Compile>
+    <Compile Include="NumericUpDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NumericUpDown.Designer.cs">
+      <DependentUpon>NumericUpDown.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Checkled_listbox.resx">
@@ -155,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MonthCalendar.resx">
       <DependentUpon>MonthCalendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumericUpDown.resx">
+      <DependentUpon>NumericUpDown.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
