@@ -207,5 +207,12 @@ namespace Estudo_do_Csharp_Windons_Forms_
             pictureBox.StartPosition = FormStartPosition.CenterScreen;
             pictureBox.ShowDialog();
         }
+
+        private void progressbarESleepToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Progressbar_e_Sleep progressbar_E_Sleep = new Progressbar_e_Sleep();
+            progressbar_E_Sleep.StartPosition = FormStartPosition.CenterScreen;
+            progressbar_E_Sleep.ShowDialog();
+        }
     }
 }

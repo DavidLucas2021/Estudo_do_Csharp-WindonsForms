@@ -131,6 +131,12 @@
       <DependentUpon>PictureBox.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="Progressbar_e_Sleep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Progressbar_e_Sleep.Designer.cs">
+      <DependentUpon>Progressbar_e_Sleep.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Checkled_listbox.resx">
       <DependentUpon>Checkled_listbox.cs</DependentUpon>
@@ -173,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PictureBox.resx">
       <DependentUpon>PictureBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Progressbar_e_Sleep.resx">
+      <DependentUpon>Progressbar_e_Sleep.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
