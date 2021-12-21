@@ -214,5 +214,12 @@ namespace Estudo_do_Csharp_Windons_Forms_
             progressbar_E_Sleep.StartPosition = FormStartPosition.CenterScreen;
             progressbar_E_Sleep.ShowDialog();
         }
+
+        private void radioButtonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            f_RadioButton f_Radio = new f_RadioButton();
+            f_Radio.StartPosition = FormStartPosition.CenterScreen;
+            f_Radio.ShowDialog();
+        }
     }
 }

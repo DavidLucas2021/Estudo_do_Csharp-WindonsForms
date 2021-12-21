@@ -88,6 +88,12 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="f_RadioButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_RadioButton.Designer.cs">
+      <DependentUpon>f_RadioButton.cs</DependentUpon>
+    </Compile>
     <Compile Include="LinkLabel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_RadioButton.resx">
+      <DependentUpon>f_RadioButton.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LinkLabel.resx">
       <DependentUpon>LinkLabel.cs</DependentUpon>

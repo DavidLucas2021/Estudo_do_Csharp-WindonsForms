@@ -55,12 +55,13 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.monthCalendarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.numericUpDownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.progressbarESleepToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.radioButtonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.progressbarESleepToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -212,7 +213,8 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.monthCalendarToolStripMenuItem,
             this.numericUpDownToolStripMenuItem,
             this.pictureBoxToolStripMenuItem,
-            this.progressbarESleepToolStripMenuItem});
+            this.progressbarESleepToolStripMenuItem,
+            this.radioButtonToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -294,6 +296,20 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.pictureBoxToolStripMenuItem.Text = "PictureBox";
             this.pictureBoxToolStripMenuItem.Click += new System.EventHandler(this.pictureBoxToolStripMenuItem_Click);
             // 
+            // progressbarESleepToolStripMenuItem
+            // 
+            this.progressbarESleepToolStripMenuItem.Name = "progressbarESleepToolStripMenuItem";
+            this.progressbarESleepToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.progressbarESleepToolStripMenuItem.Text = "Progressbar e Sleep";
+            this.progressbarESleepToolStripMenuItem.Click += new System.EventHandler(this.progressbarESleepToolStripMenuItem_Click);
+            // 
+            // radioButtonToolStripMenuItem
+            // 
+            this.radioButtonToolStripMenuItem.Name = "radioButtonToolStripMenuItem";
+            this.radioButtonToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.radioButtonToolStripMenuItem.Text = "RadioButton";
+            this.radioButtonToolStripMenuItem.Click += new System.EventHandler(this.radioButtonToolStripMenuItem_Click);
+            // 
             // notifyIcon1
             // 
             this.notifyIcon1.ContextMenuStrip = this.contextMenuStrip1;
@@ -328,13 +344,6 @@ namespace Estudo_do_Csharp_Windons_Forms_
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             this.toolStripMenuItem3.Size = new System.Drawing.Size(136, 22);
             this.toolStripMenuItem3.Text = "Fechar ";
-            // 
-            // progressbarESleepToolStripMenuItem
-            // 
-            this.progressbarESleepToolStripMenuItem.Name = "progressbarESleepToolStripMenuItem";
-            this.progressbarESleepToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.progressbarESleepToolStripMenuItem.Text = "Progressbar e Sleep";
-            this.progressbarESleepToolStripMenuItem.Click += new System.EventHandler(this.progressbarESleepToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -401,6 +410,7 @@ namespace Estudo_do_Csharp_Windons_Forms_
         private System.Windows.Forms.ToolStripMenuItem numericUpDownToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pictureBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem progressbarESleepToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem radioButtonToolStripMenuItem;
     }
 }
 
